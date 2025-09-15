@@ -15,5 +15,5 @@ PSFalcon-DuplicateIOARuleAcrossChildCIDs:
     Re-create the IOA rule in the IOA rule group
   Wait a few seconds for rate limiting, and then move on to the next CID
 
-PSFalcon-GetActiveHostsAcrossMemberCIDs:
+PSFalcon-GetActiveHostsAcrossChildCIDs:
   Take an API from the parent as input, quickly authenticate through each child/member CID and gather a host count of active hosts in the last 7 days. Write the results to a CSV file.

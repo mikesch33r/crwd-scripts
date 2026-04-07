@@ -34,7 +34,7 @@
 .NOTES
     Requires PSFalcon module version 2.0 or higher
         As of April 2026, this script uses the dev branch of PSFalcon. Available here: https://github.com/CrowdStrike/psfalcon/tree/dev
-        Update line 38 to indicate the location of your dev version of PSFalcon
+        Update line 43 to indicate the location of your dev version of PSFalcon
     Creates an import results CSV file: FalconDpeClassifications_ImportResults_YYYYMMDD_HHMMSS.csv
     Auto-generated fields (id, created_time_stamp, modified_time_stamp) are removed from rules before import
 #>
